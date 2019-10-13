@@ -1,0 +1,67 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* background: #34495e; */
+    background: url(prdImg/signIn.jpg) no-repeat center fixed;
+    background-position: center; 
+    background-size: cover;
+}
+.box
+{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+    opacity: 0.75;
+}
+.box h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box input[type="text"],.box input[type="password"],.box input[type="email"],.box input[type="tel"]
+{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px dashed #d19fe4;  /*#3498db*/
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus,.box input[type="email"]:focus,.box input[type="tel"]:focus
+{
+    width: 280px;
+    border-color: #8a25b1;    /*#2ecc71*/
+}
+.box input[type="submit"],.box input[type="button"]
+{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #8a25b1;    /*#2ecc71*/
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.box input[type="submit"]:hover,.box input[type="button"]:hover
+{
+    background: #8a25b1;      /*#2ecc71*/
+}

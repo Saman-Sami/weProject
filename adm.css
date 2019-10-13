@@ -1,0 +1,35 @@
+body{
+    background-color: rgba(171,71,188,0.4);
+    text-align: center;
+}
+.btn{
+    height:30px;
+    width:150px;
+    background-color:rgb(171,71,188);
+    color:white;
+    font-family:Times New Roman;
+    font-size:15px;
+    border:none;
+}
+.lbl{
+    height:30px;
+    width:50px;
+    font-family:Times New Roman;
+    font-size:15px;
+}
+.lgnd{
+    display: block; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    border: 3px solid rgb(171,71,188); 
+    background-color:rgba(171,71,188,0.5); 
+    color:white;
+    font-family:Times New Roman;
+    font-size:50px;
+}
+
+.fs{
+    width:100%;
+    border:none;
+}
+    
